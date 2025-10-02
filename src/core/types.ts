@@ -86,6 +86,7 @@ export interface ToasterProps {
   containerClassName?: string;
   toasterId?: string;
   children?: (toast: Toast) => React.ReactElement;
+  pauseOnHover?: boolean;
 }
 
 export interface ToastWrapperProps {
